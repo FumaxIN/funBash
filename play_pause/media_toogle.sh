@@ -12,7 +12,7 @@ elif [[ $status == "Paused" ]]; then
     playerctl play
     echo "Music playing"
 else
-    # If no media is playing or paused, do something else or display a message
+    #no media
     echo "No media found"
 fi
 
